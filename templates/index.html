@@ -18,21 +18,40 @@
     <div class='images text-center'>
 
         <h1 class="titletext">G A M E R &nbsp; C O L L A B</h1>
-        <h7 class="pgf" style="font-size: large;">A platform to connect with fellow gamers and streamers based on the personal preferences and
+        <h7 class="pgf" style="font-size: large;">A platform to connect with fellow gamers and streamers based on the
+            personal preferences and
             much more<br><br><B> C O M I N G &nbsp;&nbsp; S O O N</B></h7>
 
 
-            <br><br>
-        <form>
+        <br><br>
+        <form method="POST" action="/register">
             <div class="row d-flex justify-content-center">
                 <div class="col-sm-3 align-items-center" style="margin-top: auto;">
-                    <input type="text" style="border-radius: 15%; padding: 20;" class="form-control" placeholder="Enter your email id ">
+                    <input type="text" style="padding: 20;" name="email" class="form-control"
+                        placeholder="Enter your email id ">
                     <br>
                     <button type="button search-bar" class="btn btn-secondary btn-lg"
                         style="background: none;">SUBSCRIBE</button>
                 </div>
             </div>
         </form>
+        {% if success %}
+        <div class="row justify-content-center">
+            <div class="col-lg-5">
+                <div class="alert alert-success" role="alert">
+                    {{success}}
+                </div>
+            </div>
+        </div>
+        {% elif error %}
+        <div class="row justify-content-center">
+            <div class="col-lg-5">
+                <div class="alert alert-danger" role="alert">
+                    {{error}}
+                </div>
+            </div>
+        </div>
+        {% endif %}
 
 
 
@@ -43,7 +62,8 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title pgf">&nabla; Social media for gamers across globe.</h5>
-                <h5 class="card-title pgf">&nabla; Connect with other gamers around the world based on personal preferences.
+                <h5 class="card-title pgf">&nabla; Connect with other gamers around the world based on personal
+                    preferences.
                 </h5>
                 <h5 class="card-title pgf">&nabla; Connect with other streamers and collab with them.</h5>
                 <h5 class="card-title pgf">&nabla; Get updates on latest games and gaming trends.</h5>
