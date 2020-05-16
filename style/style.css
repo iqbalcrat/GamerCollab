@@ -44,7 +44,6 @@ html { font-size:100%; }
     width: 500px;
     color: darkgray;
     font-size: 2vw;
-    font-weight: 100;
     font-variant-caps: all-petite-caps;
   }
   .search-bar{
@@ -97,7 +96,7 @@ html { font-size:100%; }
  
   .pgf{
     font-family: 'Teko', sans-serif;
-    font-size: 2vw;
+    font-size: 5vw;
     color: darkgray;
 
   }
