@@ -4,13 +4,13 @@ import pyrebase
 
 
 config = {
-    'apiKey': 'AIzaSyCrggDa5PaxM2mreGr8ESJVQha1OWoS4Uc',
-    'authDomain': 'gamercollab-e8a25.firebaseapp.com',
-    'databaseURL': 'https://gamercollab-e8a25.firebaseio.com',
+    'apiKey': 'api_key',
+    'authDomain': 'auth_domain',
+    'databaseURL': 'database_url',
     'projectId': 'gamercollab-e8a25',
     'storageBucket': 'gamercollab-e8a25.appspot.com',
     'messagingSenderId': '687236169723',
-    'appId': '1:687236169723:web:1dfab4d6055deb57b5555e',
+    'appId': 'app_id',
     'measurementId': 'G-YH9314G9ZF'
 }
 
