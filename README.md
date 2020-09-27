@@ -1,2 +1,2 @@
 # GamerCollab
-A collaboration portal for gamers
+Landing page of a collaboration portal for Gamers
