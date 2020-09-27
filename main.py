@@ -4,7 +4,7 @@ import pyrebase
 
 
 config = {
-    'apiKey': 'api_key',
+    'apiKey': 'api_key_',
     'authDomain': 'auth_domain',
     'databaseURL': 'database_url',
     'projectId': 'gamercollab-e8a25',
